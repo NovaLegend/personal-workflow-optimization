@@ -1,0 +1,10 @@
+# Runtime records must never be committed to this source repository.
+.good-morning/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+dist/
