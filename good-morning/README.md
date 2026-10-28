@@ -63,14 +63,17 @@ No invented completion percentages. No treating silence as failure. No generic m
 ### 1. Download the skills
 
 ```sh
-git clone https://github.com/NovaLegend/good-morning.git
+git clone https://github.com/NovaLegend/personal-workflow-optimization.git
+cd personal-workflow-optimization/good-morning
 ```
 
-Or use GitHub's **Code → Download ZIP**, then extract it.
+Or use GitHub's **Code → Download ZIP**, extract it, and open the `good-morning` folder.
+
+Good Morning! is part of [Personal Workflow Optimization](../README.md). It previously lived in its own repository, `NovaLegend/good-morning`, which is now archived.
 
 ### 2. Install into a private planning workspace
 
-The installer requires **Python 3.9+**, uses only the standard library, and makes no network requests. Run it from the downloaded repository:
+The installer requires **Python 3.9+**, uses only the standard library, and makes no network requests. Run it from the `good-morning` folder:
 
 ```sh
 python3 install.py --agent both --workspace "$HOME/GoodMorning"
